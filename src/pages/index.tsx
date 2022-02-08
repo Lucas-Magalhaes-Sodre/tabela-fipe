@@ -34,8 +34,6 @@ export default function Home({ brands }:HomeProps) {
   const handleYearCar = useCallback(async () => {
     const response = await api.get(`/carros/marcas/${brand}/modelos/${nameCar}/anos`);
 
-    console.log(response.data);
-
     setYearCars(response.data);
   }, [brand, nameCar]);
 
