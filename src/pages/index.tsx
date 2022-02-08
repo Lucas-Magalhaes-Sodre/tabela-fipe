@@ -7,7 +7,7 @@ import { useCar } from '../hook/useCar';
 import api from '../services/api';
 import {
   Container, Title, SubTitle, SearchCars,
-} from './styles';
+} from '../styles/home/styles';
 
 interface Brands{
   nome: string;
