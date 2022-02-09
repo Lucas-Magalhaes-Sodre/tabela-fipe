@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
       background:var(--background);
+      color: var(--black);
+
       height: 100%;
       width: 100%;
-      color: var(--black);
+
       text-align: center;
       margin-top: 100px;
-
-
 `;
 
 export const SearchCars = styled.form`
@@ -16,16 +16,12 @@ export const SearchCars = styled.form`
       height: 280px;
       width: 500px;
 
+      display: inline-block;
       align-items: center;
       text-align: center;
 
       border: 0.5px outset var(--gray-light);
       border-radius: 5px;
-      display: inline-block;
-
-
-
-
 `;
 
 export const Title = styled.h1`
@@ -38,15 +34,16 @@ export const SubTitle = styled.h2`
 `;
 
 export const SearchButton = styled.button`
-    height: 35px;
-    width: 150px;
-    border-radius: 5px;
-    font-weight: 500;
     background: var(--gray-light);
     color: var(--gray);
-    padding: 0px;
+    height: 35px;
+    width: 150px;
+    font-weight: 500;
 
     display: inline-block;
+    border-radius: 5px;
+
+    padding: 0px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;

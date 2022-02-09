@@ -9,8 +9,6 @@ export const GlobalStyles = createGlobalStyle`
     --green: #33CC95;
     --gray: #808080;
     --gray-light: #DCDCDC;
-    --silver: ##C0C0C0;
-    --input: #ffc;
     --shape: #ffffff;
     --black: #000;
 }
