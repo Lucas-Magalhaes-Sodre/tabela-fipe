@@ -19,7 +19,7 @@ interface CreateContextProps{
   setNameCar: Dispatch<SetStateAction<string>>;
   yearCar: string;
   setYearCar: Dispatch<SetStateAction<string>>;
-  resultCar: ResultCar
+  resultCar: ResultCar;
   setResultCar: Dispatch<SetStateAction<ResultCar>>;
 }
 
@@ -29,7 +29,7 @@ export function CarProvider({ children }:CarProviderProps) {
   const [brand, setBrand] = useState<string>('0');
   const [nameCar, setNameCar] = useState<string>('0');
   const [yearCar, setYearCar] = useState<string>('0');
-  const [resultCar, setResultCar] = useState<ResultCar>();
+  const [resultCar, setResultCar] = useState<ResultCar>({} as ResultCar);
 
   return (
     <CarContext.Provider value={{
