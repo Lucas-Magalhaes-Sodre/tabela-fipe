@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
       background:var(--background);
-      color: var(--black);
+      color: var(--grey21);
       height: 100%;
       width: 100%;
 
-      display: inline-block;
       text-align: center;
       margin-top: 100px;
 `;
@@ -26,11 +25,14 @@ export const SearchCars = styled.form`
 
 export const Title = styled.h1`
 
+      width: 500px;
+      display: inline-block;
 `;
 
 export const SubTitle = styled.h2`
+      width: 500px;
 
-
+      display: inline-block;
 `;
 
 export const SearchButton = styled.button`
