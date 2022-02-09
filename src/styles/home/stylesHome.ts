@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
       background:var(--background);
       color: var(--black);
-
       height: 100%;
       width: 100%;
 
+      display: inline-block;
       text-align: center;
       margin-top: 100px;
 `;
